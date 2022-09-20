@@ -4,6 +4,41 @@
     margin: 0;
 }
 
+:root{
+    --white: white;
+    --primary-blue: #3066be;
+    --light-blue: #b4c5e4;
+    --secondary-text: rgb(134, 142, 150);
+}
+
 nav{
     height: 70px;
+}
+
+ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ul li:not(:last-child)::after{
+    content:""; 
+    border:1px solid var(--secondary-text);
+    border-width: 1px 1px 0 0;
+  }
+
+.btn{
+    text-decoration: none;
+    color: var(--white);
+    padding: 0 3rem;
+}
+
+.active, .btn:hover{
+    color: var(--primary-blue);
+}
+
+.disabled{
+    color: var(--secondary-text);
+    pointer-events: none;
+    cursor: default;
 }
