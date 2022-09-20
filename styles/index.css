@@ -6,17 +6,25 @@
     margin: 0;
 }
 
+.container{
+    background: linear-gradient(#000000, #2C3E50);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .cover{
     height: 50vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(#000000, #2C3E50);
+    border-bottom: 2px solid #3066be;
 }
 
 .name_heading{
-    color: rgb(32, 201, 151);
+    /* color: rgb(32, 201, 151); */
+    color: #3066be;
     font-family: 'Rasa', 'sans-serif';
     font-size: 74px;
     font-weight: 400;
@@ -29,7 +37,7 @@
 }
 
 .head_para{
-    width: 300px;
+    width: 350px;
     height: 100px;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -40,7 +48,7 @@
     display: flex;
 }
 
-div > a {
+.icons a {
     border: 1px solid white;
     padding: 5px;
     height: 30px;
@@ -52,9 +60,11 @@ div > a {
     align-items: center;
 }
 
-div > a:hover {
+.icons a:hover {
+    transition: all .1s ease-in-out 0s;
     transform: scale(1.1);
-    box-shadow: 0px 0px 10px 3px rgba(230, 224, 200, 0.5);
+    /* box-shadow: 0px 0px 10px 3px rgba(230, 224, 200, 0.5); */
+    box-shadow: 0px 0px 10px 3px #b4c5e4;
 }
 
 .cover .image{
@@ -63,4 +73,20 @@ div > a:hover {
 
 .image img{
     height: 100%;
+}
+
+.bottom{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom a img{
+    width: 14rem;
+}
+
+.bottom a img:hover{
+    transition: width .2s ease-in-out 0s;
+    width: 15rem;
 }
