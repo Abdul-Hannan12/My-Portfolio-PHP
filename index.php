@@ -9,7 +9,7 @@
 
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index.css?v=<?php echo time(); ?>">
 
     <script src="https://kit.fontawesome.com/0980d95b57.js" crossorigin="anonymous"></script>
 
@@ -29,10 +29,14 @@
         <div class="heading_para">
         <p class="head_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ex eum quia, fugiat delectus error adipisci vitae ab ducimus excepturi eligendi ad aliquid recusandae?</p>
         <div class="icons">
+            <a target="_blank" href="mailto:abdulhannan8540680@gmail.com"> <i style="color: white;" class="fa-regular fa-envelope"></i> </a>
             <a target="_blank" href="https://github.com/Rocky-Khan"> <i style="color: white;" class="fa-brands fa-github"></i> </a>
             <a target="_blank" href="https://www.linkedin.com/in/abdul-hannan-8a78b01bb/"> <i style="color: white;" class="fa-brands fa-linkedin-in"></i> </a>
-            <a target="_blank" href="mailto:abdulhannan8540680@gmail.com"> <i style="color: white;" class="fa-regular fa-envelope"></i> </a>
         </div>
+        </div>
+
+        <div class="image">
+            <img class="my_image" src="assets/images/me.png" alt="image"/>
         </div>
 
     </div>
