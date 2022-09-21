@@ -20,7 +20,7 @@ $page = basename($_SERVER['PHP_SELF']);
         <ul>
             <li> <a class="btn <?php if($page == 'index.php'){echo "active";}?>" href="index.php"> Home </a> </li>
             <li> <a class="btn <?php if($page == 'bio.php'){echo "active";}?>" href="bio.php"> Bio </a> </li>
-            <li> <a class="btn <?php if($page == 'project.php'){echo "active";}?>" href="projects.php"> Projects </a> </li>
+            <li> <a class="btn <?php if($page == 'projects.php'){echo "active";}?>" href="projects.php"> Projects </a> </li>
             <li> <a class="btn <?php if($page == 'contact.php'){echo "active";}?>" href="contact.php"> Contact </a> </li>
             <li> <a class="btn <?php if($page == 'blog.php'){echo "active";}?> disabled"> Blog </a> </li>
         </ul>

@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Contact</title>
+    <title>Projects</title>
 
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/projects.css">
 
 </head>
 
@@ -17,11 +17,11 @@
 
 <div class="container">
 
-<?php include("header.php") ?>
+    <?php include("header.php") ?>
 
 
 
-<?php include("footer.html") ?>
+    <?php include("footer.html") ?>
 
 </div>
 

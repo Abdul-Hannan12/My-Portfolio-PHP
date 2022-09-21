@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --white: white;
+    --primary-blue: #3066be;
+    --light-blue: #b4c5e4;
+    --secondary-text: rgb(134, 142, 150);
+    --black-gradient: linear-gradient(#000000, #2C3E50);
+}
+
+.container{
+    background: var(--black-gradient);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
