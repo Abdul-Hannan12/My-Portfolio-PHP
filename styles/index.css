@@ -31,7 +31,6 @@
 }
 
 .name_heading{
-    /* color: rgb(32, 201, 151); */
     color: var(--primary-blue);
     font-family: 'Rasa', 'sans-serif';
     font-size: 4.7rem;
@@ -76,7 +75,6 @@
 .icons a:hover {
     transition: all .1s ease-in-out 0s;
     transform: scale(1.1);
-    /* box-shadow: 0px 0px 10px 3px rgba(230, 224, 200, 0.5); */
     box-shadow: 0px 0px 10px 3px var(--light-blue);
 }
 
@@ -104,7 +102,9 @@
     width: 15rem;
 }
 
-@media screen and (max-width: 1200px){
+/* RESPONSIVE */
+
+@media screen and (max-width: 1210px){
 
     .name_heading{
         font-size: 4.5rem;
@@ -140,7 +140,7 @@
 
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1150px){
 
     .name_heading{
         font-size: 4rem;
@@ -158,11 +158,6 @@
     .icons{
         margin-top: 0.3rem;
     }
-    
-    i{
-        height: 1.2rem;
-        width: 1.2rem;
-    }
 
     .icons a {
         padding: 0.3rem;
@@ -170,13 +165,73 @@
         width: 1.5rem;
         margin: 0.5rem;
     }
-
     .bottom a img{
         width: 13rem;
     }
 
     .bottom a img:hover{
         width: 14rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .name_heading{
+        font-size: 3.5rem;
+    }
+    
+    .name_sub_heading{
+        font-size: 0.7rem;
+    }
+    
+    .head_para{
+        width: 250px;
+        font-size: 0.6rem;
+    }
+
+    .bottom a img{
+        width: 12rem;
+    }
+
+    .bottom a img:hover{
+        width: 13rem;
+    }
+
+}
+
+@media screen and (max-width: 920px){
+
+    .cover{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 5rem;
+    }
+
+    .heading{
+        margin-bottom: 2rem;
+    }
+
+    .image{
+        /* display: none; */
+        height: 50vh;
+        position: absolute;
+        right: 0;
+    }
+
+    .image img{
+        height: 300px;
+        position: relative;
+        bottom: 0;
+    }
+
+    .bottom a img{
+        width: 11rem;
+    }
+
+    .bottom a img:hover{
+        width: 12rem;
     }
 
 }
