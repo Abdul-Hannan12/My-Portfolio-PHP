@@ -19,7 +19,7 @@
     
     <div class="container">
 
-        <?php include("header.html") ?>
+        <?php include("header.php") ?>
         
         <div class="cover">
             
