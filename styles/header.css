@@ -43,3 +43,14 @@ ul li:not(:last-child)::after{
     pointer-events: none;
     cursor: default;
 }
+
+.header_container{
+    display: flex;
+}
+
+.header_container img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: none;
+}

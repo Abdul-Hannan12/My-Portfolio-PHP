@@ -16,6 +16,10 @@ $page = basename($_SERVER['PHP_SELF']);
 
 <body>
 
+    <div class="header_container">
+
+    <img src="assets/images/me2.jpg" alt="">
+
     <nav>
         <ul>
             <li> <a class="btn <?php if($page == 'index.php'){echo "active";}?>" href="index.php"> Home </a> </li>
@@ -25,6 +29,8 @@ $page = basename($_SERVER['PHP_SELF']);
             <li> <a class="btn <?php if($page == 'blog.php'){echo "active";}?> disabled"> Blog </a> </li>
         </ul>
     </nav>
+
+    </div>
     
 </body>
 

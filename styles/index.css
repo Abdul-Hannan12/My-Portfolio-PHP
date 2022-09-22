@@ -202,28 +202,17 @@
 
 @media screen and (max-width: 920px){
 
-    .cover{
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding-left: 5rem;
-    }
-
-    .heading{
+    /* .heading{
         margin-bottom: 2rem;
-    }
+    } */
 
     .image{
-        /* display: none; */
-        height: 50vh;
-        position: absolute;
-        right: 0;
+        display: none;
     }
 
-    .image img{
-        height: 300px;
-        position: relative;
-        bottom: 0;
+    .head_para{
+        width: 300px;
+        font-size: 0.7rem;
     }
 
     .bottom a img{
