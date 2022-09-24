@@ -21,17 +21,21 @@
         
         <div class="cover">
             
-            <div class="heading">
-            <h3 class="name_heading">Abdul Hannan</h3>
-            <p class="name_sub_heading">WEB AND APP DEVELOPER</p>
+            <div class="head_heading">
+                <div class="heading">
+                    <h3 class="name_heading">Abdul Hannan</h3>
+                    <p class="name_sub_heading">WEB AND APP DEVELOPER</p>
+                </div>
             </div>
 
-            <div class="heading_para">
-                <p class="head_para"> I am a passionate developer, full of motivation to move forward. I have a passion for learning new things and the curiosity is what keeps me going on the journey of development. </p>
-                <div class="icons">
-                    <a target="_blank" href="mailto:abdulhannan8540680@gmail.com"> <img src="assets/icons/mail.png" alt=""> </a>
-                    <a target="_blank" href="https://github.com/Rocky-Khan"> <img src="assets/icons/github.png" alt=""> </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/abdul-hannan-8a78b01bb/"> <img src="assets/icons/linkedin.png" alt=""> </a>
+            <div class="head_text">
+                <div class="heading_para">
+                    <p class="head_para"> I am a passionate developer, full of motivation to move forward. I have a passion for learning new things and the curiosity is what keeps me going on the journey of development. </p>
+                    <div class="icons">
+                        <a target="_blank" href="mailto:abdulhannan8540680@gmail.com"> <img src="assets/icons/mail.png" alt=""> </a>
+                        <a target="_blank" href="https://github.com/Rocky-Khan"> <img src="assets/icons/github.png" alt=""> </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/abdul-hannan-8a78b01bb/"> <img src="assets/icons/linkedin.png" alt=""> </a>
+                    </div>
                 </div>
             </div>
 
