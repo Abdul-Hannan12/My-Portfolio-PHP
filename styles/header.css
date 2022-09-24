@@ -9,6 +9,7 @@
     --primary-blue: #3066be;
     --light-blue: #b4c5e4;
     --secondary-text: rgb(134, 142, 150);
+    --black-gradient: linear-gradient(#000000, #2C3E50);
 }
 
 nav{
@@ -64,7 +65,26 @@ ul li:not(:last-child)::after{
         justify-content: start;
         margin-top: 15px;
         margin-left: 25px;
+        height: 100%;
     }
+
+    ul li:not(:last-child)::after{
+        border: none;
+      }
+
+      ul{
+        padding: 3rem;
+      }
+
+      ul li{
+        padding: 1rem;
+      }
+
+    ul li:not(:last-child){
+        border-bottom:1px solid var(--secondary-text);
+        width: 100%;
+        padding: 2rem;
+      }
 
     .hamburger{
         display: block;
@@ -84,18 +104,16 @@ ul li:not(:last-child)::after{
     }
 
     .nav_menu{
+        padding-top: 4rem;
         position: fixed;
         left: -100%;
         gap: 0;
         flex-direction: column;
-        background-color: var(--secondary-text);
+        background-color: var(--black-gradient);
+        backdrop-filter: blur(30px);
         width: 60%;
         text-align: center;
         transition: 0.3s;
-    }
-
-    .nav_item{
-        margin: 16px 0;
     }
 
     .nav_menu.active{
