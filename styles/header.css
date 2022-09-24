@@ -62,9 +62,6 @@ ul li:not(:last-child)::after{
 
     nav{
         display: flex;
-        justify-content: start;
-        margin-top: 15px;
-        margin-left: 25px;
         height: 100%;
     }
 
@@ -82,13 +79,14 @@ ul li:not(:last-child)::after{
 
     ul li:not(:last-child){
         border-bottom:1px solid var(--secondary-text);
-        width: 100%;
         padding: 2rem;
       }
 
     .hamburger{
         display: block;
         cursor: pointer;
+        margin-top: 15px;
+        margin-left: 25px;
     }
 
     .hamburger.active .bar:nth-child(2){
@@ -118,6 +116,19 @@ ul li:not(:last-child)::after{
 
     .nav_menu.active{
         left: 0;
+    }
+
+}
+
+@media screen and (max-width: 520px){
+    
+    ul li:not(:last-child){
+        width: auto;
+        border: none; 
+      }
+
+    .nav_menu{
+        width: 70%;
     }
 
 }

@@ -312,11 +312,16 @@ body{
     }
 
     .image{
-        height: 40vh;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+    }
+    .image img{
+        border-bottom: 1px solid var(--primary-blue);
     }
 
     .head_heading, .head_text{
-        height: 30vh;
+        height: 20vh;
     }
     
     .icons{
