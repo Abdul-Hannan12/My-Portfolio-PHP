@@ -19,7 +19,7 @@
 
     <?php include("header.php") ?>
 
-
+    <div class="placeholder" style="height: 95vh;"></div>
 
     <?php include("footer.html") ?>
 

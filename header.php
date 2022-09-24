@@ -33,6 +33,12 @@ $page = basename($_SERVER['PHP_SELF']);
                 <span class="bar"></span>
             </div>
 
+            <div class="icons">
+                <a target="_blank" href="mailto:abdulhannan8540680@gmail.com"> <img src="assets/icons/mail.png" alt=""> </a>
+                <a target="_blank" href="https://github.com/Rocky-Khan"> <img src="assets/icons/github.png" alt=""> </a>
+                <a target="_blank" href="https://www.linkedin.com/in/abdul-hannan-8a78b01bb/"> <img src="assets/icons/linkedin.png" alt=""> </a>
+            </div>
+
         </nav>
     </header>
 

@@ -58,10 +58,37 @@ ul li:not(:last-child)::after{
     background-color: var(--white);
 }
 
+.navbar .icons{
+    display: none;
+    margin-top: 0.5rem;
+}
+
+.navbar .icons a {
+    border: 1px solid var(--white);
+    padding: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20%;
+    margin: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .icons img{
+    height: 98%;
+    width: 98%;
+}
+
 @media screen and (max-width: 680px){
+
+    .navbar .icons{
+        display: flex;
+    }
 
     nav{
         display: flex;
+        justify-content: space-between;
         height: 100%;
     }
 
