@@ -44,13 +44,62 @@ ul li:not(:last-child)::after{
     cursor: default;
 }
 
-.header_container{
-    display: flex;
+.hamburger{
+    display: none;
 }
 
-.header_container img{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    display: none;
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--white);
+}
+
+@media screen and (max-width: 680px){
+
+    nav{
+        display: flex;
+        justify-content: start;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav_menu{
+        position: fixed;
+        left: -100%;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--secondary-text);
+        width: 60%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav_item{
+        margin: 16px 0;
+    }
+
+    .nav_menu.active{
+        left: 0;
+    }
+
 }

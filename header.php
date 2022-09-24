@@ -16,21 +16,27 @@ $page = basename($_SERVER['PHP_SELF']);
 
 <body>
 
-    <div class="header_container">
+    <header>
+        <nav class="navbar">
 
-    <img src="assets/images/me2.jpg" alt="">
+            <ul class="nav_menu">
+                <li class="nav_item"> <a class="btn <?php if($page == 'index.php'){echo "active";}?>" href="index.php"> Home </a> </li>
+                <li class="nav_item"> <a class="btn <?php if($page == 'bio.php'){echo "active";}?>" href="bio.php"> Bio </a> </li>
+                <li class="nav_item"> <a class="btn <?php if($page == 'projects.php'){echo "active";}?>" href="projects.php"> Projects </a> </li>
+                <li class="nav_item"> <a class="btn <?php if($page == 'contact.php'){echo "active";}?>" href="contact.php"> Contact </a> </li>
+                <li class="nav_item"> <a class="btn <?php if($page == 'blog.php'){echo "active";}?> disabled"> Blog </a> </li>
+            </ul>
 
-    <nav>
-        <ul>
-            <li> <a class="btn <?php if($page == 'index.php'){echo "active";}?>" href="index.php"> Home </a> </li>
-            <li> <a class="btn <?php if($page == 'bio.php'){echo "active";}?>" href="bio.php"> Bio </a> </li>
-            <li> <a class="btn <?php if($page == 'projects.php'){echo "active";}?>" href="projects.php"> Projects </a> </li>
-            <li> <a class="btn <?php if($page == 'contact.php'){echo "active";}?>" href="contact.php"> Contact </a> </li>
-            <li> <a class="btn <?php if($page == 'blog.php'){echo "active";}?> disabled"> Blog </a> </li>
-        </ul>
-    </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
 
-    </div>
+        </nav>
+    </header>
+
+    <script src="scripts/header.js"></script>
     
 </body>
 
