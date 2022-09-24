@@ -40,7 +40,7 @@
             </div>
 
             <div class="image">
-                <img class="my_image" src="assets/images/me.png" alt="image"/>
+                <img class="myImageTag" class="my_image" src="assets/images/me.png" alt="image"/>
             </div>
 
         </div>
@@ -54,6 +54,8 @@
         <?php include("footer.html") ?>
 
     </div>
+
+    <script src="scripts/index.js"></script>
 
 </body>
 

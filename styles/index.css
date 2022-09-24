@@ -14,8 +14,12 @@
     --black-gradient: linear-gradient(#000000, #2C3E50);
 }
 
-.container{
+body{
     background: var(--black-gradient);
+}
+
+.container{
+    /* background: var(--black-gradient); */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -295,8 +299,20 @@
 
 @media screen and (max-width: 680px){
 
-    .cover, .image{
-        height: 60vh;
+    .container{
+        height: 150vh;
+    }
+
+    .cover{
+        height: 100vh;
+        grid-template-areas:
+            'image'
+            'heading'
+            'para';
+    }
+
+    .image{
+        height: 40vh;
     }
 
     .head_heading, .head_text{
