@@ -220,8 +220,26 @@
 
 @media screen and (max-width: 920px){
 
+    .cover{
+        grid-template-areas:
+            'heading image'
+            'para image';
+    }
+
+    .head_heading{
+        height: 25vh;
+        align-items: end;
+        padding-bottom: 0.5rem;
+    }
+    
+    .head_text{
+        height: 25vh;
+        align-items: start;
+        padding-top: 0.5rem;
+    }
+    
     .image{
-        display: none;
+        height: 50vh;
     }
 
     .head_para{
@@ -235,6 +253,66 @@
 
     .bottom a img:hover{
         width: 12rem;
+    }
+
+}
+
+@media screen and (max-width: 769px){
+
+    .name_heading{
+        font-size: 3.2rem;
+    }
+    
+    .name_sub_heading{
+        font-size: 0.7rem;
+    }
+    
+    .head_para{
+        width: 300px;
+        font-size: 0.65rem;
+    }
+    
+    .icons{
+        margin-top: 0.3rem;
+    }
+
+    .icons a {
+        padding: 0.3rem;
+        height: 1.4rem;
+        width: 1.4rem;
+        margin: 0.4rem;
+    }
+    
+    .bottom a img{
+        width: 10rem;
+    }
+
+    .bottom a img:hover{
+        width: 11rem;
+    }
+
+}
+
+@media screen and (max-width: 680px){
+
+    .cover, .image{
+        height: 60vh;
+    }
+
+    .head_heading, .head_text{
+        height: 30vh;
+    }
+    
+    .icons{
+        display: none;
+    }
+    
+    .bottom a img{
+        width: 9rem;
+    }
+
+    .bottom a img:hover{
+        width: 10rem;
     }
 
 }
